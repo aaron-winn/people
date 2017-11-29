@@ -1,0 +1,12 @@
+<h1>Personal info</h1>
+<h1>Name: <%= @person.name or "no name" %></h1>
+<h1>Age: <%= @person.age %></h1>
+<h1>Hair Color: <%= @person.hair_color %></h1>
+<h1>Eye Color: <%= @person.eye_color %></h1>
+<h1>Gender: <%= @person.gender %></h1>
+<h1>Status: <%= @person.alive == true ? "Alive" : "Dead" %></h1>
+
+
+<%= link_to 'Contact List', people_path %>
+
+  
